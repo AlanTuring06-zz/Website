@@ -317,10 +317,6 @@ html {
     padding: 250px 50px 20px 50px;
 }
 
-#python, #htmlcss, #commandline, #sql {
-    height: 30vh;
-    padding: 25px 20px 10px 25px;
-}
 
 #python {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("python.png");
@@ -366,61 +362,50 @@ html {
     padding: 250px 50px 20px 50px;
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
+.list {
+    align-content: center;
+    width: 200px;
+    height: 220px;
+    overflow-y: auto;
+}
+
+.list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+.list li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.list li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.list li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.list li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
     /* For tablets: */
-    .col-s-1 {
-        width: 8.33%;
-    }
-
-    .col-s-2 {
-        width: 16.66%;
-    }
-
-    .col-s-3 {
-        width: 25%;
-    }
-
-    .col-s-4 {
-        width: 33.33%;
-    }
-
-    .col-s-5 {
-        width: 41.66%;
-    }
-
-    .col-s-6 {
-        width: 50%;
-    }
-
-    .col-s-7 {
-        width: 58.33%;
-    }
-
-    .col-s-8 {
-        width: 66.66%;
-    }
-
-    .col-s-9 {
-        width: 75%;
-    }
-
-    .col-s-10 {
-        width: 83.33%;
-    }
-
-    .col-s-11 {
-        width: 91.66%;
-    }
-
-    .col-s-12 {
-        width: 100%;
-    }
-
     .title {
         top: 25%;
     }
@@ -431,8 +416,10 @@ html {
         height: 50vh;
     }
     #turkey, #russia, #thailand, #vietnam {
-        height: 30vh;
-        padding: 25px 20px 10px 25px;
+        height: 50vh;
+    }
+    #python, #htmlcss, #commandline, #sql {
+        height: 50vh;
     }
     ul li a {
         font-size: 10px;
@@ -540,50 +527,39 @@ html {
             font-size: 10px;
             margin-top: 5px;
         }
+    
     #video iframe {
         width: 480px;
         height: 300px;
     }
+    
+    .container {
+    line-height: 0.5cm;
+    color: #fff;
+    }
+
+    .container h1 {
+        font-family: "Papyrus", fantasy;
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .container blockquote {
+        font-family: "Papyrus", fantasy;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .container p {
+        font-family: "Papyrus", fantasy;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
 }
 
-.list {
-    align-content: center;
-    width: 200px;
-    height: 220px;
-    overflow-y: auto;
-}
-
-.list ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  border: 1px solid #555;
-}
-
-.list li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-.list li {
-  text-align: center;
-  border-bottom: 1px solid #555;
-}
-
-.list li:last-child {
-  border-bottom: none;
-}
-
-.list li a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-.list li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
 }
