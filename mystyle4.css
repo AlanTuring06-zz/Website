@@ -360,6 +360,28 @@ html {
     padding: 250px 50px 20px 50px;
 }
 
+#igcse {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("igcse.png");
+    height: 65vh;
+    background-size: cover;
+    background-position: center top;
+    line-height: 1cm;
+    color: #fff;
+    text-align: center;
+    padding: 250px 50px 20px 50px;
+}
+
+#asalevel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("asalevel.png");
+    height: 65vh;
+    background-size: cover;
+    background-position: center top;
+    line-height: 1cm;
+    color: #fff;
+    text-align: center;
+    padding: 250px 50px 20px 50px;
+}
+
 .list {
     align-content: center;
     width: 200px;
