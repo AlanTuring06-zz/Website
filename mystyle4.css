@@ -217,16 +217,16 @@ html {
 .ending {
     font-family: "Copperplate", fantasy;
     color: black;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    justify-content: center;
 }
 
     #part {
-        display: inline-block;
+        display: inline-table;
         text-align: center;
         width: 30%;
-        padding-left: 20px;
+        margin-left:  15px;
+        margin-bottom: 10px;
+        padding: auto;
     }
 
     #part h1 {
@@ -239,13 +239,11 @@ html {
         height: 100px;
         width: 100px;
         border: 2px solid #C4C4C4;
-        margin-top: 20px;
     }
 
     #part blockquote {
         font-family: "Copperplate", fantasy;
         font-size: 20px;
-        margin-top: 10px;
     }
 
 .container {
@@ -405,38 +403,24 @@ html {
 }
 
 .button1 {
-  position: relative;
-  background-color: #00264d;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 20px;
-  width: 200px;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
+    background-color: #1f1f2e;
+    color: white;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.button1:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
+.button1:hover {
+  background-color: #555;
+  color: white;
 }
 
-.button1:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
+#pdf {
+    align-self: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -491,6 +475,11 @@ html {
             font-size: 15px;
             margin-bottom: 10px;
         }
+
+        .container a{
+            position:  absolute;
+            align-content: center;
+        }
     .introduction {
         min-height: 10vh;
     }
@@ -543,14 +532,12 @@ html {
     }
 
     #part {
-        width: 15%;
-        padding-left: 20px;
+        padding: auto;
     }
 
         #part h1 {
             font-size: 18px;
             font-weight: 200;
-            margin-top: 5px;
         }
 
         #part img {
@@ -560,7 +547,6 @@ html {
         }
         #part blockquote {
             font-size: 10px;
-            margin-top: 5px;
         }
     
     #video iframe {
