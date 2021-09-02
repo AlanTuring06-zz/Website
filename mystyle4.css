@@ -496,10 +496,6 @@ html {
   color: white;
 }
 
-#pdf {
-    align-self: center;
-}
-
 @media only screen and (max-width: 600px) {
     /* For tablets: */
     .title {
@@ -655,9 +651,21 @@ html {
         font-size: 10px;
         margin-bottom: 10px;
     }
-}
 
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
+    .button1 {
+        background-color: #1f1f2e;
+        color: white;
+        border: 1px solid #e7e7e7;
+        padding: 7px 10px;
+        text-align: center;
+        font-size: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .button1:hover {
+        background-color: #555;
+        color: white;
+    }
 }
