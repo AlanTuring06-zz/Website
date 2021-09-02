@@ -315,6 +315,55 @@ html {
     padding: 250px 50px 20px 50px;
 }
 
+#python, #htmlcss, #commandline, #sql {
+    height: 30vh;
+    padding: 25px 20px 10px 25px;
+}
+
+#python {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("python.png");
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    line-height: 1cm;
+    color: #fff;
+    text-align: center;
+    padding: 250px 50px 20px 50px;
+}
+
+#htmlcss {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("html.png");
+    height: 65vh;
+    background-size: cover;
+    background-position: center top;
+    line-height: 1cm;
+    color: #fff;
+    text-align: center;
+    padding: 250px 50px 20px 50px;
+}
+
+#commandline {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("commandline.png");
+    height: 65vh;
+    background-size: cover;
+    background-position: center top;
+    line-height: 1cm;
+    color: #fff;
+    text-align: center;
+    padding: 250px 50px 20px 50px;
+}
+
+#sql {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("sql.png");
+    height: 65vh;
+    background-size: cover;
+    background-position: center top;
+    line-height: 1cm;
+    color: #fff;
+    text-align: center;
+    padding: 250px 50px 20px 50px;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
