@@ -125,6 +125,7 @@ html {
         font-size: 90px;
         font-family: "Copperplate", fantasy;
         text-align: center;
+        margin-bottom: 50px;
     }
 
 .button {
@@ -163,6 +164,7 @@ html {
 #aboutme {
     margin-top: 50px;
 }
+
 .basic {
     padding: 30px 100px;
 }
@@ -429,7 +431,7 @@ html {
         height: 50vh;
     }
     #turkey, #russia, #thailand, #vietnam {
-        height: 40vh;
+        height: 30vh;
         padding: 25px 20px 10px 25px;
     }
     ul li a {
@@ -585,74 +587,3 @@ html {
   background-color: #555;
   color: white;
 }
-
-.st {
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    border-top-style: inset;
-    border-right-style: inset;
-    border-bottom-style: inset;
-    border-left-style: inset;
-    border-top-color: initial;
-    border-right-color: initial;
-    border-bottom-color: initial;
-    border-left-color: initial;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-}
-@media only screen and (max-width: 768px) {
-    /* For desktop: */
-    .col-1 {
-        width: 8.33%;
-    }
-
-    .col-2 {
-        width: 16.66%;
-    }
-
-    .col-3 {
-        width: 25%;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
-        width: 100%;
-    }
-}
-
